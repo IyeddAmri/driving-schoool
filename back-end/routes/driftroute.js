@@ -4,14 +4,14 @@ const router = express.Router();
 const driftController = require('../controllers/driftcontroller');
 
 
-router.get('/lessons', driftController.getAllLessons);
+router.get('/lesson', driftController.getAllLessons);
 
 
-router.post('/lessons', driftController.addLesson);
+router.post('/lesson', driftController.addLesson);
 
-router.put('/lessons/:lessonId', driftController.updateLesson);
+router.put('/lesson/:lessonId', driftController.updateLesson);
 
 
-router.delete('/lessons/:lessonId', driftController.deleteLesson);
+router.delete('/lesson/:lessonId', driftController.deleteLesson);
 
 module.exports = router;
