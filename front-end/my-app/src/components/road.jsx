@@ -7,9 +7,46 @@
 
 // const Road = () => {
 //   const professionalTrackQuizData = [
-//     { question: 'What is a key element in professional track driving?', options: ['Drifting', 'Straight-line speed', 'Handbrake turns', 'Donuts'], correctAnswer: 'Straight-line speed' },
-//     { question: 'What is the purpose of a roll cage in track cars?', options: ['Aesthetic enhancement', 'Increased weight', 'Safety in case of a rollover', 'Improved aerodynamics'], correctAnswer: 'Safety in case of a rollover' },
-//     { question: 'Which braking technique is commonly used in professional track driving?', options: ['Threshold braking', 'Emergency braking', 'Cadence braking', 'Trail braking'], correctAnswer: 'Threshold braking' },
+//     {
+//       question: 'When is Heel Toe Downshifting most effective?',
+//       options: [
+//         'Improving grip in tight turns.',
+//         'Optimizing gear transitions.',
+//         'Executing quick acceleration maneuvers.',
+//         'Preferred by automatic transmission drivers.',
+//       ],
+//       correctAnswer: 'Optimizing gear transitions.',
+//     },
+//     {
+//       question: 'What is Double Clutching?',
+//       options: [
+//         'Enhancing grip in demanding corners.',
+//         'Synchronizing gear and engine speeds.',
+//         'Executing strategic speed maneuvers.',
+//         'Recommended for electric vehicles.',
+//       ],
+//       correctAnswer: 'Synchronizing gear and engine speeds.',
+//     },
+//     {
+//       question: 'When should Corner Braking be applied?',
+//       options: [
+//         'Maximizing top speed on straight tracks.',
+//         'Improving grip in tight turns.',
+//         'Enhancing gear shifting proficiency.',
+//         'Executing precise drift maneuvers.',
+//       ],
+//       correctAnswer: 'Improving grip in tight turns.',
+//     },
+//     {
+//       question: 'What is Left Foot Braking?',
+//       options: [
+//         'Delicate brake modulation while maintaining throttle input.',
+//         'Executing strategic speed maneuvers.',
+//         'Optimizing gear transitions.',
+//         'Recommended for off-road driving.',
+//       ],
+//       correctAnswer: 'Delicate brake modulation while maintaining throttle input.',
+//     },
 //   ];
 
 //   const [lessons, setLessons] = useState([]);

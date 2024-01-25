@@ -1,15 +1,50 @@
-// DriftLessons.js
-
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import ReactPlayer from 'react-player';
-import '../App.css';
+import '../index1.css';
 
 const DriftLessons = () => {
   const quizData = [
-    { question: 'What is drifting?', options: ['Sideways racing', 'Parallel parking', 'Drag racing', 'Off-roading'], correctAnswer: 'Sideways racing' },
-    { question: 'What is a donut in drifting?', options: ['A sweet treat', 'A tire-smoking maneuver', 'A type of tire', 'A roundabout'], correctAnswer: 'A tire-smoking maneuver' },
-    { question: 'What is the primary purpose of a handbrake in drifting?', options: ['Parking', 'Making turns', 'Styling points', 'Initiating slides'], correctAnswer: 'Initiating slides' },
+    {
+      question: 'What is Feint Drift?',
+      options: [
+        'Weight transfer for controlled drift initiation.',
+        'Quick handbrake application for turns.',
+        'Sudden clutch disengagement for wheel spin.',
+        'Excessive throttle for oversteer.',
+      ],
+      correctAnswer: 'Weight transfer for controlled drift initiation.',
+    },
+    {
+      question: 'What is Clutch Kick?',
+      options: [
+        'Quick initiation of drifts using handbrake.',
+        'Rapid clutch disengagement and throttle application.',
+        'Utilizing excess engine power for sustained drifts.',
+        'Gradual brake modulation for controlled slides.',
+      ],
+      correctAnswer: 'Rapid clutch disengagement and throttle application.',
+    },
+    {
+      question: 'What is E-Brake Drift?',
+      options: [
+        'Maintaining drift angles with minimal throttle input.',
+        'Locking up rear wheels with handbrake for slides.',
+        'Utilizing excess engine power to break traction.',
+        'Abrupt steering maneuvers for quick turns.',
+      ],
+      correctAnswer: 'Locking up rear wheels with handbrake for slides.',
+    },
+    {
+      question: 'What is Power Over Drift?',
+      options: [
+        'Sustained drifts at higher speeds using excess engine power.',
+        'Weight transfer for controlled drift initiation.',
+        'Quick handbrake application for turns.',
+        'Gradual brake modulation for controlled slides.',
+      ],
+      correctAnswer: 'Sustained drifts at higher speeds using excess engine power.',
+    },
   ];
 
   const [lessons, setLessons] = useState([]);

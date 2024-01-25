@@ -1,0 +1,75 @@
+[
+  {
+    "PageId": 1,
+    "Title": "Lesson 5",
+    "Content": "• Left Foot Braking: \nIncorporates the utilization of the left foot to delicately modulate brake application while concurrently maintaining throttle input with the right foot. This technique enhances braking fluidity and augments response immediacy, particularly in nuanced driving scenarios.",
+    "VideoURL": "https://www.youtube.com/watch?v=cOjpHRwgG_k",
+    "Lessons": "Left Foot Braking: involves using your left foot to apply light pressure on the brake pedal while keeping your right foot on the accelerator. This technique allows for smoother braking and quicker response times in certain driving situations.",
+    "Photos": "https://speedsecrets.com/wp-content/uploads/2016/04/Feet.jpg"
+  },
+  {
+    "PageId": 2,
+    "Title": "Lesson 6",
+    "Content": "Heel Toe Downshifting: epitomizes a fundamental technique for manual transmission aficionados striving for pinnacle performance and control.",
+    "VideoURL": "https://www.example.com/video2.mp4",
+    "Lessons": "• Heel Toe Downshifting: \nEmbodies the art of synchronizing foot articulation to achieve seamless transitions between gears while meticulously managing engine revolutions. This method ensures optimal acceleration and stability, especially during assertive driving maneuvers.",
+    "Photos": "Photo URL for Lesson 2"
+  },
+  {
+    "PageId": 3,
+    "Title": "Lesson 7",
+    "Content": "Double Clutching: represents a precision technique that amplifies gear shifting proficiency for drivers aspiring to attain zenith efficiency and agility.",
+    "VideoURL": "https://www.example.com/video3.mp4",
+    "Lessons": "• Double Clutching: \nEncompasses the intricate process of disengaging and reengaging the clutch mechanism twice during gear changes to synchronize engine and transmission velocities. This methodology optimizes gear engagement, fostering smoother transitions and enhancing overall driving dynamics.",
+    "Photos": "Photo URL for Lesson 3"
+  },
+  {
+    "PageId": 4,
+    "Title": "Lesson 8",
+    "Content": "Corner Braking: serves as a strategic maneuver employed to maximize grip and control when navigating demanding corners at elevated velocities.",
+    "VideoURL": "https://www.example.com/video4.mp4",
+    "Lessons": "• Corner Braking: \nEnables the nuanced modulation of braking force prior to entering corners, redistributing weight onto the front tires to bolster traction and stability. This method empowers drivers to approach corners with assurance and precision, achieving optimal performance and lap times.",
+    "Photos": "Photo URL for Lesson 4"
+  }
+]
+//////////////////
+////////////////
+drift
+////////////////////////
+///////////
+
+
+[
+  {
+    "PageId": 5,
+    "Title": "Feint Drift",
+    "Content": "Feint Drift: a high-skill driving technique where the driver initiates a quick steering maneuver in the opposite direction before swiftly counter-steering into the desired direction of the drift, inducing oversteer while maintaining control.",
+    "VideoURL": "https://www.example.com/video5.mp4",
+    "Lessons": "- Strength Advantage: This method allows for precise control over the vehicle's weight transfer, enabling smooth and controlled drift initiation.\n- Technique: Practice timing and execution to seamlessly transition from the initial feint to counter-steering, maintaining control throughout the drift.\n- Common Mistakes: Common mistakes include oversteering too aggressively during the feint or failing to properly counter-steer, leading to loss of control.",
+    "Photos": "Photo URL for Feint Drift"
+  },
+  {
+    "PageId": 6,
+    "Title": "Clutch Kick",
+    "Content": "Clutch Kick: a high-skill driving technique where the driver rapidly disengages the clutch while simultaneously applying throttle to induce sudden wheel spin and break traction in the rear wheels, initiating a drift while maintaining control.",
+    "VideoURL": "https://www.example.com/video6.mp4",
+    "Lessons": "- Strength Advantage: This method allows for quick and aggressive initiation of drifts, particularly useful in situations requiring immediate response, such as tight corners or transitions between corners.\n- Technique: Practice precise timing and coordination between clutch and throttle inputs to execute the clutch kick effectively.\n- Common Mistakes: Common mistakes include engaging the clutch too abruptly, causing loss of control, or failing to modulate throttle properly during the initiation phase.",
+    "Photos": "Photo URL for Clutch Kick"
+  },
+  {
+    "PageId": 7,
+    "Title": "E-Brake Drift",
+    "Content": "E-Brake Drift: a high-skill driving technique where the driver utilizes the handbrake or emergency brake to lock up the rear wheels momentarily, initiating oversteer and inducing a drift while maintaining control.",
+    "VideoURL": "https://www.example.com/video7.mp4",
+    "Lessons": "- Strength Advantage: E-brake drifting provides precise control over the initiation of drifts, allowing drivers to maintain consistent drift angles with minimal throttle input.\n- Technique: Practice timing and coordination between handbrake engagement and steering input to achieve smooth and controlled drift initiation.\n- Common Mistakes: Common mistakes include engaging the handbrake too aggressively, leading to abrupt weight transfer and loss of control, or releasing the handbrake too early, resulting in insufficient drift angle.",
+    "Photos": "Photo URL for E-Brake Drift"
+  },
+  {
+    "PageId": 8,
+    "Title": "Power Over Drift",
+    "Content": "Power Over Drift: a high-skill driving technique where the driver uses excess engine power to break traction in the rear wheels, initiating and sustaining a drift through throttle control and steering input while maintaining control.",
+    "VideoURL": "https://www.example.com/video8.mp4",
+    "Lessons": "- Strength Advantage: This method allows for sustained drifts at higher speeds and in longer corners, showcasing the vehicle's power and the driver's skill in maintaining control.\n- Technique: Practice throttle modulation and steering control to manage the balance between maintaining traction and inducing controlled oversteer.\n- Common Mistakes: Common mistakes include excessive throttle input, leading to uncontrollable oversteer, or insufficient throttle input, resulting in loss of drift momentum.",
+    "Photos": "Photo URL for Power Over Drift"
+  }
+]
