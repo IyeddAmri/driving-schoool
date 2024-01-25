@@ -1,13 +1,16 @@
 import React from 'react';
-import HomePage from './components/HomePage';
+import Drift from './components/drift'; 
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <HomePage />
+    <div>
+      <h1> Title</h1>
+      <Drift/>
+      
+    
+      
     </div>
   );
-}
+};
 
 export default App;
-
