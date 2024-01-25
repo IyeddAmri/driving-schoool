@@ -21,7 +21,7 @@ USE `taf7it` ;
 -- Table `taf7it`.`driftingtable`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `taf7it`.`driftingtable` (
-  `PageId` INT NOT NULL,
+  `PageId` INT NOT NULL AUTO_INCREMENT,
   `Title` VARCHAR(255) NULL DEFAULT NULL,
   `Content` TEXT NULL DEFAULT NULL,
   `VideoURL` VARCHAR(255) NULL DEFAULT NULL,
