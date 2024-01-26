@@ -41,7 +41,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Driving School App</h1>
+      
       {currentView}
     </div>
   );
