@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import '../App.css';
 import ContactUsForm from './ContactUsForm';
@@ -45,21 +44,23 @@ const HomePage = () => {
                 </div>
               </div>
             </section>
-            <section className="about-us">
-              <h2>About Us</h2>
-              <p>Your Driving School is dedicated to providing high-quality driving lessons...</p>
-            </section>
-            <section className="services">
-              <h2>Our Services</h2>
-              <button onClick={() => handleChangeView('services')}>View Services</button>
-            </section>
-            <section className="pricing">
-              <h2>Pricing</h2>
-              <button onClick={() => handleChangeView('pricing')}>View Pricing</button>
-            </section>
-            <section className="contact-us">
-              <h2>Contact Us</h2>
-              <button onClick={() => handleChangeView('contact')}>Contact Us</button>
+            <section className="bottom-sections">
+              <div className="bottom-section">
+                <h2>About Us</h2>
+                <p>Your Driving School is dedicated to providing high-quality driving lessons...</p>
+              </div>
+              <div className="bottom-section">
+                <h2>Our Services</h2>
+                <button onClick={() => handleChangeView('services')}>View Services</button>
+              </div>
+              <div className="bottom-section">
+                <h2>Pricing</h2>
+                <button onClick={() => handleChangeView('pricing')}>View Pricing</button>
+              </div>
+              <div className="bottom-section">
+                <h2>Contact Us</h2>
+                <button onClick={() => handleChangeView('contact')}>Contact Us</button>
+              </div>
             </section>
           </>
         );
