@@ -36,17 +36,17 @@ COLLATE = utf8mb4_0900_ai_ci;
 -- -----------------------------------------------------
 -- Table `taf7it`.`straightroadstable`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `taf7it`.`straightroadstable` (
-  `PageId` INT NOT NULL,
-  `Title` VARCHAR(255) NULL DEFAULT NULL,
-  `Content` TEXT NULL DEFAULT NULL,
-  `VideoURL` VARCHAR(255) NULL DEFAULT NULL,
-  `Lessons` TEXT NULL DEFAULT NULL,
-  `Photos` TEXT NULL DEFAULT NULL,
-  PRIMARY KEY (`PageId`))
-ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8mb4
-COLLATE = utf8mb4_0900_ai_ci;
+  CREATE TABLE IF NOT EXISTS `taf7it`.`straightroadstable` (
+    `PageId` INT NOT NULL,
+    `Title` VARCHAR(255) NULL DEFAULT NULL,
+    `Content` TEXT NULL DEFAULT NULL,
+    `VideoURL` VARCHAR(255) NULL DEFAULT NULL,
+    `Lessons` TEXT NULL DEFAULT NULL,
+    `Photos` TEXT NULL DEFAULT NULL,
+    PRIMARY KEY (`PageId`))
+  ENGINE = InnoDB
+  DEFAULT CHARACTER SET = utf8mb4
+  COLLATE = utf8mb4_0900_ai_ci;
 
 
 -- -----------------------------------------------------

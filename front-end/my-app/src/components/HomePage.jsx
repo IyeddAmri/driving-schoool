@@ -69,7 +69,7 @@ const HomePage = () => {
   return (
     <div>
       <nav className="navbar">
-        <div className="logo">Your Driving School</div>
+        <div className="logo">to ecole lamouchi</div>
         <ul>
           <li><a href="#" onClick={() => handleChangeView('home')}>Home</a></li>
           <li><a href="#" onClick={() => handleChangeView('services')}>Services</a></li>
